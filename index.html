@@ -1,0 +1,267 @@
+<!DOCTYPE html> 
+<head>
+<title>Dia internacional de la madre tierra</title>
+<meta charset="utf-8">
+<meta name="viewport"content="width=device-width,initial-scale=1">
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema.proyecto.min.css"/>
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css"/>
+<link rel="stylesheet" href="css/theme.app4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="phonegap.js"></script><!--necesario*/-->
+
+<!----Menu Lateral---->
+<link rel="stylesheet" href="css/sldr.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jsplug.js"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/historia-2.jpg','imagenes/habitamos-2.jpg','imagenes/armonia-2.jpg','imagenes/sostenible-2.jpg','imagenes/cecelebra3.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>Dia internacional de la madre tierra 22 de abril</h1>
+ </div>
+ <div class="container">
+ <div id="sidebar">
+<ul data-role="listview"data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-icon-right ui-icon-carat-r">
+<h2>Porque se celebra?</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-icon-right ui-icon-carat-r">
+<h2>Historia del Dia</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3"class="ui-btn ui-icon-right ui-icon-carat-r">
+<h2>La Tierra que habitamos</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4"class="ui-btn ui-icon-right ui-icon-carat-r">
+<h2>Dialogo sobre la armonia con la naturaleza</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5"class="ui-btn ui-icon-right ui-icon-carat-r">
+<h2>Hacia una tierra sostenible</h2>
+</a>
+</li>
+</ul>
+</div>
+  
+<div class="main-content">
+<div class="swipe-area"></div>
+   <a href="#" data-toggle=".container" id="sidebar-toggle">
+   <span class="bar"></span>
+   <span class="bar"></span>
+   <span class="bar"></span>
+   </a>
+  </div>
+  </div>
+  <center>
+  <br>
+  <div class="slider">
+   <ul>
+   <li><img src="imagenes/tierra-1.jpg" alt="sldr"></li>
+   <li><img src="imagenes/tierra-2.jpg" alt="sldr2"></li>
+   <li><img src="imagenes/tierra-3.jpg" alt="sldr3"></li>
+   <li><img src="imagenes/tierra-4.jpg" alt="sldr4"></li>
+   <li><img src="imagenes/tierra-5.jpg" alt="sldr5"></li>
+   <li><img src="imagenes/tierra-6.jpg" alt="sldr6"></li>
+   <li><img src="imagenes/tierra-7.jpg" alt="sldr7"></li>
+   <li><img src="imagenes/tierra-8.jpg" alt="sldr8"></li>
+</ul>
+</div>
+</center>
+<center>
+<div data-role="main" class="ui-content">
+<br> <br> <br> <br> <br> <br> <br> <br> <br>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Realizado por:</h1>
+<h2>Marco Antonio Torres Aguilar</h2>
+<p>4° semestre, grupo F</p>
+<h1>Especialidad:</h1>
+<p>Programacion</p>
+<h2>Submodulo:</h2>
+<p>Desarrola Aplicaciones Moviles</p>
+<h2>Docente:</h2>
+<p>Lic.Jose Antonio Gomez Hernandez</p>
+</div>
+</div>
+</center>
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<h4>Dia de la madre tierra</h4>
+<h4>Marco Antonio Torres Aguilar</h4><img src="imagenes/mdpi.png" width="46" height="46">
+</div>
+</div>
+</div>
+ 
+<!--Pagina 1-->		
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Por que se celebra?</h1>
+ </div>
+<center>
+<div class="ui-content" onMouseOver="" data-role="main">
+<img src="imagenes/cecelebra.jpg" name="cecelebra" width="70" height="70" id="cecelebra" onMouseOver="MM_swapImage('cecelebra','','imagenes/cecelebra3.jpg',1)">
+<p>
+  Celebramaos el dia internacional de la madre tierra para recordar que el planeta y sus ecosistemas nos dan la vida y el sustento.Con este dia asumimos ademas la responsabilidad colectiva como nosrecordaba la declaracion de rio de 1992 de fomentar esta armonia con la naturaleza y la madre tierra.
+  Este dia nos brinda tambien la oportunidad de consientisar a todos los habitantes del planeta acerca de los problemas afectan a la tierra y a las diferentes formas de vida ene el que se desarrollan.
+  
+</p>
+ </div>
+ </center>
+ <center>
+   
+ <div data-role="main" class="ui-content" align="center">
+ <dive style="width:30%:">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="http://clpciencias.blogspot.com/2017/04/juntos-podemos-salvar-nuestroplaneta-la.html"target="_self" data-role="button">
+<h4>QUIERES CONOCER MAS?</h4>
+</a>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <h4>Dia de la madre tierra</h4>
+  <h4>Marco Antonio Torres Aguilar</h4><img src="imagenes/mdpi.png" width="46" height="46">
+  </div>
+  </div>
+</li>
+</ul>
+</div>
+</div>
+</center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <h4>Dia de la madre tierra</h4>
+  <h4>Marco Antonio Torres Aguilar</h4><img src="imagenes/mdpi.png" width="46" height="46">
+  </div>
+  </div>
+  </div>
+  <h4>Dia de la madre tierra</h4>
+  <h4>Marco Antonio Torres Aguilar</h4>
+  </div>
+  </div>
+  
+  
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>historia del dia</h1>
+ </div>
+  <div data-role="content" align="center">
+   <div>
+    <img src="imagenes/historia.jpg" name="historia" width="70" height="70" id="historia" onMouseOver="MM_swapImage('historia','','imagenes/historia-2.jpg',1)"> </div>
+  <p>El origen de este día, celebrado mundialmente (aunque no en todas partes), se encuentra en Estados Unidos, durante los 70. Y está asociado, sin duda, a un nombre: Gaylord Nelson. La historia cuenta (a pesar de los curiosos rumores sobre Lenin) que fue este político quién aprovechó un miércoles para organizar una manifestación en defensa del medio ambiente y el ecologismo. Un momento muy estudiado y que venía cociéndose desde la década de los 60 debido a la creciente irresponsabilidad ambiental del gobierno de Estados Unidos. Ya habían gérmenes plantados desde la comunidad científica y estudiantil. Ese miércoles los estudiantes y trabajadores se unieron en una manifestación pacífica que pretendía rendir homenaje y mostrar la preocupación colectiva sobre temas como el medio ambiente, la superpoblación o la conservación de la biodiversidad.</p>
+ <a href="https://hipertextual.com/2015/04/dia-de-la-tierra-2015"target="_self"data-role="button">¿quieres saber mas?</a>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <img src="imagenes/mdpi.png" width="46" height="46" alt="pie">
+  </div>
+  <h4>dia de la madre tierra</h4>
+  <h4>Marco Antonio Torres Aguilar</h4>
+  </div>
+  </div>
+  
+  
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>la tierra quer habitamos</h1>
+ </div>
+  <div data-role="content" align="center">
+   <div>
+    <img src="imagenes/habitamos.png" name="habita" width="70" height="70" id="habita" onMouseOver="MM_swapImage('habita','','imagenes/habitamos-2.jpg',1)"></div>
+  <p>Hacia una tierra sostenible
+La Asamblea General designa en su resolución A/RES/63/278 el 22 de abril como el Día Internacional de la Madre Tierra, teniendo en cuenta que en muchos países se celebra el día de la Tierra, y con el objetivo de alcanzar un justo equilibrio entre las necesidades económicas, las sociales y las ambientales de las generaciones presentes y futuras, y para promover la armonía con la naturaleza y la Tierra.
+
+Invita a todos los Estados Miembros, las organizaciones del sistema de las Naciones Unidas, las organizaciones internacionales, regionales y subregionales, la sociedad civil, las organizaciones no gubernamentales y las partes interesadas a observar el Día Internacional de la Madre Tierra y crear conciencia al respecto, según proceda.
+
+La Conferencia de las Naciones Unidas sobre el Medio Humano de 1972 celebrada en Estocolmo sentó las bases de la toma de conciencia mundial sobre la relación de interdependencia entre los seres humanos, otros seres vivos y nuestro planeta. Asimismo, se estableció el 5 de junio como el Día Mundial del Medio Ambiente y se creó el Programa de las Naciones Unidas para el Medio Ambiente (PNUMA), la agencia de la ONU encargada de establecer la agenda ambiental a nivel global, promover la implementación coherente de la dimensión ambiental del desarrollo sostenible en el sistema de las Naciones Unidas y actuar como un defensor autorizado del medio ambiente.
+  </div>
+  <a href="https://www.un.org/es/events/motherearthday/background.shtml"target="_self"data-role="button">¿quieres saber mas?</a>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <img src="imagenes/mdpi.png" width="46" height="46" alt="pie">
+  </div>
+<h4>Dia de la madre tierra</h4>
+<h4>Marco Antonio Torres Aguilar<h4>
+  </div>
+  </div>
+  
+  
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>dialogo sobre la armonia con la naturaleza</h1>
+ </div>
+  <div data-role="content" align="center">
+   <div>
+    <img src="imagenes/armonia.jpg" name="armo" width="70" height="70" id="armo" onMouseOver="MM_swapImage('armo','','imagenes/armonia-2.jpg',1)"></div>
+  <p>“Cambiar el sistema, no el clima” es la consigna que recorre todo el mundo. Pero, ¿con que nuevo sistema vamos a cambiar el actual?, ¿qué nuevas alternativas se están construyendo desde lo local, lo nacional, lo regional y lo internacional frente al actual sistema de sobre consumo, derroche y mercantilización de todos los aspectos de la vida y la naturaleza? ¿Cuáles deben ser los principios fundamentales de ese “otro mundo posible y necesario”?
+
+¿Qué características y como podemos construir un mundo que restablezca la armonía entre seres humanos y con la naturaleza para el vivir bien de toda la humanidad y nuestra madre tierra?
+
+Este Grupo de Trabajo tiene por objetivo pensar, recuperar, analizar y desarrollar las alternativas estructurales al sistema capitalista para promover soluciones de fondo al problema del cambio climático.</p>
+<a href="https://cmpcc.wordpress.com/category/grupos-de-trabajo/02-armonia-con-la-naturaleza/"target="_self"data-role="button">¿quieres saber mas?</a>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <img src="imagenes/mdpi.png" width="46" height="46" alt="pie">
+  </div>
+  <h4>Dia de la madre tierra</h4>
+  <h4>Marco Antonio Torres Aguilar</h4>
+  </div>
+  </div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">hacia una tierra sostenible</div>
+  <div data-role="content" align="center">
+   <div>
+    <img src="imagenes/sostenible.jpg" name="soste" width="70" height="70" id="soste" onMouseOver="MM_swapImage('soste','','imagenes/sostenible-2.jpg',1)"></div>
+  <p>La Tierra, nuestro hogar
+La humanidad es parte de un vasto universo evolutivo. La Tierra, nuestro hogar, está viva con una comunidad singular de vida. Las fuerzas de la naturaleza promueven a que la existencia sea una aventura exigente e incierta, pero la Tierra ha brindado las condiciones esenciales para la evolución de la vida. La capacidad de recuperación de la comunidad de vida y el bienestar de la humanidad dependen de la preservación de una biosfera saludable, con todos sus sistemas ecológicos, una rica variedad de plantas y animales, tierras fértiles, aguas puras y aire limpio. El medio ambiente global, con sus recursos finitos, es una preocupación común para todos los pueblos. La protección de la vitalidad, la diversidad y la belleza de la Tierra es un deber sagrado.</p>
+<a href="https://www.who.int/es/news-room/fact-sheets/detail/universal-health-coverage-(uhc)"target="_self"data-role="button">¿quieres saber mas?</a>
+
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <img src="imagenes/mdpi.png" width="46" height="46" alt="pie">
+  </div>
+  <h4>Dia de la madre tierra</h4>
+  <h4>Marco Antonio Torres Aguilar</h4>
+  </div>
+  </div>
+
+</body>
+</html>
